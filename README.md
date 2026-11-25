@@ -44,7 +44,7 @@ Run your own models against it — see Usage.
 4. **Scoring** — a task passes when all its tests pass; results are written
    per model as JSON and rendered to a markdown scoreboard.
 
-Optional: a static layer via [`bqnlsp`](https://github.com/Grshor/bqnlsp)
+Optional: a static layer via [`bqnlsp`](https://github.com/Gwushor/bqnlsp)
 (`check --json` — compile status plus inferred shape/type information) when a
 bqnlsp binary is available.
 
@@ -95,7 +95,7 @@ confident, wrong dialect. A measured scoreboard is the cheapest way to make
 that visible — for users deciding whether to trust the model, and for labs
 deciding what to train on.
 
-The companion project [bqnlsp](https://github.com/Grshor/bqnlsp) (BQN language
+The companion project [bqnlsp](https://github.com/Gwushor/bqnlsp) (BQN language
 server with shape/type inference) doubles as the static-analysis oracle.
 
 ## License

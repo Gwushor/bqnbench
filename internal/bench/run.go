@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Grshor/bqnbench/internal/llm"
-	"github.com/Grshor/bqnbench/internal/runner"
+	"github.com/Gwushor/bqnbench/internal/llm"
+	"github.com/Gwushor/bqnbench/internal/runner"
 )
 
 // TestResult is the outcome of one test evaluation.
